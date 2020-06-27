@@ -1,0 +1,139 @@
+/*General*/
+
+@font-face {
+    font-family: Medieval;
+    src: url('./fonts/CloisterBlack.ttf')
+}
+
+body {
+    background: url('./images/Background.jpg');
+    background-attachment: fixed;
+}
+
+/*Menu*/
+
+.Nav-Bar {
+    height: 50pt;
+    width: 100%;
+    background: black;
+}
+
+.Nav-Bar-Item {
+    display: inline-block;
+}
+
+.Nav-Bar-Img {
+    margin-left: 30%;
+    width: 100pt;
+}
+
+.Nav-Bar-Input {
+    width: 110%;
+    margin-left: 35%;
+    margin-bottom: 8pt;
+    float: left;
+    color: black;
+    font-size: 16pt;
+    font-family: Medieval;
+    padding: 5pt;
+    padding-left: 10pt;
+    border-style: solid;
+    border-radius: 20pt;
+    border-width: 1pt;
+    border-color: darkred;
+    background: url('./images/Old_Paper_Texture.jpg');
+}
+
+.Nav-Bar-Home-Button {
+    width: 150%;
+    margin-left: 220%;
+    margin-bottom: 8pt;
+    float: left;
+    color: black;
+    font-size: 16pt;
+    font-family: Medieval;
+    padding: 5pt;
+    border-style: solid;
+    border-radius: 20pt;
+    border-width: 1pt;
+    border-color: rgb(146, 0, 0);
+    background: url('./images/Old_Paper_Texture.jpg');
+}
+
+.Nav-Bar-About-Button {
+    width: 150%;
+    margin-left: 290%;
+    margin-bottom: 8pt;
+    float: left;
+    color: black;
+    font-size: 16pt;
+    font-family: Medieval;
+    padding: 5pt;
+    border-style: solid;
+    border-radius: 20pt;
+    border-width: 1pt;
+    border-color: darkred;
+    background: url('./images/Old_Paper_Texture.jpg');
+}
+
+/*Header*/
+
+.Header {
+    margin-left: 155pt;
+    display: inline-block;
+    height:200pt;
+}
+
+.Banner {
+    margin: 1.7pt;
+    margin-bottom: 0pt;
+    width: 98.9%;
+    border: gold solid 2pt;
+    height:200pt;
+}
+
+/*Content*/
+
+.Section {
+    border: 2pt solid black;
+    border-top: 0pt;
+    border-bottom: 0pt;
+    background: url('./images/Gold_Background.jpg');
+    margin: auto;
+    width: 70%;
+    height: fit-content;
+}
+
+.Box {
+    margin: 1.7pt;
+    background: url('./images/Wood\ Wallpaper.jpg');
+    border: gold 2pt solid;
+    width: 24%;
+    height: fit-content;
+    float: left;
+}
+
+.Box-Img {
+    width: 100%;
+}
+
+.Box-Title {
+    font-family: Medieval;
+    color: gold;
+    margin: 3pt;
+    text-align: center;
+    font-size: 14pt;
+}
+
+/*Footer*/
+
+.Footer {
+    font-family: Medieval;
+    color: whitesmoke;
+    width: 100%;
+    height: 30pt;
+}
+
+.Footer p {
+    background: black
+}
